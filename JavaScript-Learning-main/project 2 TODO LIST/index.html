@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To-Do List</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/651278eb2d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header class="text-center text-light my-4">
+        <h1 class="mb-4">To-Do List</h1>
+        <form class="search">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            class="form-control m-auto"
+            placeholder="search to dos"
+          />
+        </form>
+      </header>
+      <!-- header end -->
+
+      <!-- UL start -->
+      <ul class="list-group todos mx-auto text-light">
+        <!-- first item start -->
+        <li
+          class="
+            list-group-item
+            d-flex
+            justify-content-between
+            align-items-center
+          "
+        >
+          <span> play mario cart </span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <!-- first item end -->
+
+        <!-- second item start -->
+        <li
+          class="
+            list-group-item
+            d-flex
+            justify-content-between
+            align-items-center
+          "
+        >
+          <span> defeat ganon in zelda </span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <!-- second item end -->
+
+        <!-- third item start -->
+        <li
+          class="
+            list-group-item
+            d-flex
+            justify-content-between
+            align-items-center
+          "
+        >
+          <span> make chocolate chip cookies </span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <!-- third item end -->
+      </ul>
+      <!-- UL end -->
+
+      <!-- form for adding list items start -->
+      <form class="add text-align-center my-4">
+        <label for="add" class="text-light">Add new To Do...</label>
+        <input
+          type="text"
+          name="add"
+          id="add"
+          class="form-control m-auto"
+          placeholder="E.G. Buy Milk"
+        />
+      </form>
+      <!-- form for adding list items end  -->
+    </div>
+
+    <!-- scripts -->
+    <script src="app.js"></script>
+  </body>
+</html>

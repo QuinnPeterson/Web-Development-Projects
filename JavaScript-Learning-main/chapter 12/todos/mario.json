@@ -1,0 +1,17 @@
+[
+  {
+    "text": "mario",
+    "author": "mario 1",
+    "points": 1
+  },
+  {
+    "text": "mario mario",
+    "author": "mario 2",
+    "points": 20
+  },
+  {
+    "text": "mario mario mario",
+    "author": "mario 3",
+    "points": 45
+  }
+]
