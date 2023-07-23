@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_course_1",
+  "version": "1.0.0",
+  "description": "a node js tutorial course on youtube",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mime": "^1.6.0",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuinnPeterson/Nodejs-course-1.git"
+  },
+  "author": "Quinn Peterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuinnPeterson/Nodejs-course-1/issues"
+  },
+  "homepage": "https://github.com/QuinnPeterson/Nodejs-course-1#readme"
+}
