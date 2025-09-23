@@ -1,0 +1,123 @@
+.post {
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+}
+.post__image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.post__text {
+  font-weight: normal;
+  padding: 15px 20px;
+}
+.post__header {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+}
+.post__avatar {
+  margin-right: 10px;
+}
+
+.post__comments {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.comment__form {
+  margin: 0px 20px 20px 20px;
+}
+
+.comment__wrapper {
+  display: flex;
+  width: inherit;
+  background-color: #fafafa;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  padding: 8px;
+}
+
+.comment__wrapper input {
+  width: 70%;
+  border: none;
+  background: transparent;
+}
+
+.comment__wrapper input:focus {
+  border: none;
+}
+
+.comment__wrapper button {
+  width: 30%;
+  text-align: center;
+}
+
+.post {
+  width: 100%;
+  max-width: 600px; /* Set max width for the post container */
+  margin: 0 auto; /* Center the post on the screen */
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background-color: #fff;
+}
+
+.post__username {
+  font-weight: bold;
+  margin: 0;
+}
+
+.post__caption {
+  font-size: 1.2em;
+  margin: 8px 0;
+}
+
+.post__image {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Ensure it fits the container width */
+  border-radius: 8px;
+}
+
+.post__comments {
+  margin-top: 16px;
+}
+
+.post__comment {
+  margin: 4px 0;
+}
+
+.post__commentForm {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.post__input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.post__button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #0095f6;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post__button:hover {
+  background-color: #0077cc;
+}
